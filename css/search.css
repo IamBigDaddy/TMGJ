@@ -1,0 +1,48 @@
+#secrchB{
+	width: 1230px;
+	height: 130px;
+	margin: 0 auto;
+	position: relative;
+}
+#secrchB img{
+	position: absolute;
+	left: -45px;
+}
+#search{
+	width: 490px;
+	height: 36px;
+	border: 2px solid #ff0036;
+	position: absolute;
+	top: 38px;
+	left: 318px;
+}
+#btn{
+	width: 130px;
+	height: 40px;
+	background:#ff0036;
+	color:#fff;
+	font-size: 18px;
+	text-align: center;
+	line-height: 40px;
+	border: 0;
+	position: absolute;
+	top: 38px;
+	left: 808px;
+}
+#secrchB ul{
+	position: absolute;
+	top: 85px;
+	left: 304px;
+}
+#secrchB ul li{
+	display: inline-block;
+	border-right: 1px solid #999;
+}
+#secrchB ul li:nth-of-type(9){
+	border: 0
+}
+#secrchB ul li a{
+	color: #999;
+	margin: 0 14px; 
+	font-size: 12px;
+}
