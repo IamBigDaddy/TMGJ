@@ -1,0 +1,95 @@
+#bannerB{
+	width: 100%;
+	height: 500px;
+/*	background-color: #f2eee5;*/
+}
+#banner{
+	width: 1230px;
+	height: 500px;
+	margin: 0 auto;
+	position: relative;
+}
+#banner-img{
+	position: relative;
+}
+#banner-img img{
+	width: 1230px;
+	height: 500px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#banner #banner-eq .sub{
+	opacity: 0.6;
+}
+#banner-eq{
+    position: absolute;
+    left: 510px;
+    bottom:28px;
+    width: 210px;
+}
+#banner-eq li{
+    float: left;
+	width: 25px;
+	height: 5px;
+    margin: 0 5px;
+    background-color: #fff;
+    opacity: 0.2;
+}
+#banner #banner-nav{
+	width: 200px;
+	height: 500px;
+	background-color: rgba(109,107,103,0.7);
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#banner #banner-nav li{
+	line-height: 31px;
+	color: #fff;
+	font-size: 13px;
+}
+#banner #banner-nav li i{
+	color: #999;
+	margin: 0 5px 0 10px;
+}
+
+
+
+/*2级菜单*/
+#banner #parent1{
+	width: 855px;
+	height: 500px;
+	background:#fff;
+	position: absolute;
+	top: 0;
+	left: 200px;
+	z-index: 100;
+}
+#banner #parent1 .parentnav1{
+	width: 638px;
+	height: 78px;
+	display: inline-block;
+}
+#banner #parent1 .parentnav1 span a{
+	color: #000;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 60px;
+	float: left;
+	margin:0 33px;
+}
+#banner #parent1 .parentnav1 #par1son{
+	margin-top: 18px;
+}
+#banner #parent1 .parentnav1 li{
+	float: left;
+	margin: 2px 5px;
+
+}
+#banner #parent1 .parentnav1 li a{
+	font-size: 14px;
+	color: #999;
+	/*line-height: 35px;*/
+}
+

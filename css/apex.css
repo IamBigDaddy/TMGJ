@@ -38,13 +38,25 @@
 	height: 32px;
 	position: relative;
 }
-/*.ap .right #mysp{
-	width: 100px;
+.ap .right #mysp{
+	width: 120px;
+	height: 70px;
+	background-color: #fff;
 	color:#f2f2f2;
+	border: 1px solid #e5e5e5;
 	text-align: center;
 	position: absolute;
-	top:0;
-}*/
+	top:32px;
+	z-index: 10;
+}
+.ap .right #mysp a{
+	height: 35px;
+	display: block;
+}
+
+
+
+
 .ap .right .bor ::after{
 	content: ".";
 	border-right : 1px solid #999;
