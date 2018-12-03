@@ -1,0 +1,86 @@
+#listimgB{
+	width: 100%;
+}
+#listimg{
+	width: 1230px;
+	height: 653px;
+	margin:24px auto;
+}
+#listimg #listtop>img{
+	width: 214px;
+	height: 25px;
+}
+#listimg #listtop>ul{
+	float: right;
+}
+#listimg #listtop>ul li{
+	float: left;
+	margin: 0 12px;
+}
+#listimg #listtop>ul li a{
+	font-size: 14px;
+	color:#000;
+}
+#listimg #listtop>ul li:hover{
+	border-bottom: 1px solid #000;
+}
+#listimg #listbot{
+	height: 618px;
+	margin-top: 10px;
+}
+#listimg #listbot>li{
+	position: relative;
+	width: 235px;
+	height: 618px;
+	float: left;
+}
+#listimg #listbot>li a img{
+
+	width: 235px;
+	height: 618px;
+}
+#listimg #listbot ul{
+	width: 980px;
+	height: 618px;
+	float: right;
+}
+#listimg #listbot ul li{
+	width: 236px;
+	height: 302px;
+	background-color: #fff;
+	float: left;
+	margin-left: 9px;
+	margin-bottom:13px; 
+	text-align: center;
+	position: relative;
+}
+#listimg #listbot ul li a{
+	margin: 0 auto;
+}
+#listimg #listbot ul li a img{
+	width: 185px;
+	height: 185px;
+	display: block;
+	margin: 20px auto;
+}
+#listimg #listbot ul li a span{
+	display: block;
+	color:#000;
+}
+#listimg #listbot ul li a b{
+	color:red;
+}
+#thinkB{
+	width: 100%;
+	height: 80px;
+}
+#thinkB #think{
+	width: 1230px;
+	height: 90px;
+	margin: 0 auto;
+}
+#thinkB #think1{
+	width: 1230px;
+	height: 60px;
+	margin: 0 auto;
+}

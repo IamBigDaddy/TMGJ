@@ -27,7 +27,6 @@
 #demo .l1  #l1i{
 	width: 234px;
 	height: 316px;
-
 }
 
 #demo .l2{
@@ -55,7 +54,6 @@
 #demo .l2 #l2i{
 	width: 485px;
 	height: 316px;
-
 }
 #demo .demojiao{
 	float: right;
@@ -90,7 +88,6 @@
 #demo .r1 #R1i{
 	width: 485px;
 	height: 316px;
-
 }
 #demo .demojiao{
 	float: right;
@@ -98,4 +95,7 @@
 	height: 18px;
 	margin-right: 14px;
 	margin-top: 18px;
+}
+#demo li{
+	position: relative;
 }

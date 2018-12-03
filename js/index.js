@@ -33,10 +33,102 @@ var timer = null,
 		timer = setInterval( autoplay , 3000 );
 	} )
 	// banner图NAV的多级菜单
+
 	var $bannav = $("#banner-nav li"),
-		$parentSon = $("#parent1")
-	$bannav.mouseenter(function(event) {
+		$parentSon = $("#parent1"),
+		$parent1 = $("#parent1")
+	$bannav.hover(function() {
 		// var index = $(this).index()
-		$(this).css({"background":"#fff","color":"red"})
-		console.log($(this))
+		var color = getColor();
+		$(this).css({"background":"#fff","color":color})
+		$parent1.show()
+		$parent1.find("a").css("color",color)
+	},function(){
+		$(this).css({"background":"rgba(109,107,103,0)","color":"#fff"})
+		$parent1.hide()
 	});
+	$parent1.hover(function(){
+		$(this).show()
+	},function(){
+		$(this).hide()
+	})
+	//domo 划过效果
+	var $demoimg = $("#demo div>li")
+	$demoimg.hover(function(){
+		this.div = $("<div></div>");
+		this.div.css({
+			"width":$(this).width(),
+			"height":$(this).height(),
+			"background":"rgba(255,255,255,0.3)",
+			"position":"absolute",
+			"left":0,
+			"top":0
+		})
+		this.div.appendTo($(this))
+	},function(){
+		this.div.remove()
+	})
+
+	//navimg划过效果
+	var $navlist = $("#navimg li")
+	$navlist.hover(function(){
+		this.div = $("<div>Hello Word<a href=''>点击进入</a></div>");
+		this.div.css({
+			"width":$(this).width(),
+			"height":$(this).height()- 40,
+			"background":"rgba(10,10,10,0.7)",
+			"color":"#fff",
+			"text-align":"center",
+			"padding-top":"40px",
+			"position":"absolute",
+			"left":0,
+			"top":0
+		})
+		this.div.find("a").css({
+			"display":"block",
+			"width":"80",
+			"height":"20",
+			"border-radius":"12px",
+			"color":"#fff",
+			"text-align":"center",
+			"line-height":"20px",
+			"margin":"0 auto",
+			"background":"#ff0036"
+		})
+		this.div.appendTo($(this))	
+	},function(){
+		this.div.remove()
+	})
+//list大图划过效果
+	var $listbot = $("#listbot>li")
+	$listbot.hover(function(){
+		this.div = $("<a href=''></a>");
+		this.div.css({
+			"width":$(this).width(),
+			"height":$(this).height(),
+			"background":"rgba(255,255,255,0.3)",
+			"position":"absolute",
+			"left":0,
+			"top":0
+		})
+		this.div.appendTo($(this))
+	},function(){
+		this.div.remove()
+	})
+//list 小图划过效果
+	var $listbotsmall = $("#listbot>ul li")
+	$listbotsmall.hover(function(){
+		this.div = $("<a href=''></a>");
+		this.div.css({
+			"width":$(this).width(),
+			"height":$(this).height(),
+			"background":"rgba(255,255,255,0.3)",
+			"border":"1px solid red",
+			"position":"absolute",
+			"left":0,
+			"top":0
+		})
+		this.div.appendTo($(this))
+	},function(){
+		this.div.remove()
+	})
