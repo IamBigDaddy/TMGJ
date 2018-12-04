@@ -1,0 +1,153 @@
+body{
+	background-color: #fff;
+}
+input{
+	margin:0;
+	padding: 0;
+}
+#topB{
+	width: 100%;
+}
+#top{
+	width: 1190px;
+	height: 88px;
+	margin:0 auto;
+}
+#top img{
+	width: 180px;
+	height: 28px;
+	margin-top: 30px;
+}
+#bannerB{
+	width: 100%;
+	background-color: #6a9ec5;
+}
+#bannerB #banner{
+	width: 1190px;
+	height: 600px;
+	margin: 0 auto;
+	background:url("../img/logon.jpg");
+	background-size: cover;
+	position: relative;
+}
+#bannerB #banner #box{
+	width: 350px;
+	height: 406px;
+	background : #fff;
+	position: absolute;
+	right: 0;
+	top: 90px;
+}
+#bannerB #banner #box #click{
+	width: 40px;
+	height: 40px;
+	overflow: hidden;
+}
+#bannerB #banner #box #click span{
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	right: 5px;
+	top: 8px;
+	z-index: 100;
+}
+#bannerB #banner #box #click i{
+	font-size: 40px;
+	color: #ff1143;
+	position: absolute;
+	right: 5px;
+	top: 8px;
+}
+#bannerB #banner #box #click img{
+	position: absolute;
+	top: 12px;
+	right: 45px;
+}
+#bannerB #banner #box #code{
+	width: 290px;
+	height: 290px;
+	position: absolute;
+	top: 40px;
+	left: 25px;
+}
+#bannerB #banner #box #code>b{
+	display: block;
+	color: #000;
+	font-size: 16px;
+}
+#bannerB #banner #box #code>img{
+	position: absolute;
+	top: 50px;
+	left: 100px;
+	width : 90px;
+	height: 90px;
+}
+#bannerB #banner #box #code>i{
+	font-size: 30px;
+	color: #ff1143;
+	position: absolute;
+	left: 55px;
+	top: 210px;
+}
+#bannerB #banner #box #code>li{
+	position: absolute;
+	left: 100px;
+	top: 210px;
+}
+#bannerB #banner #box #code>li p{
+	color: #9c9c9c;
+}
+#bannerB #banner #box #code>li p span{
+	color:#ff1143;
+}
+#bannerB #banner #box #code>a{
+	position: absolute;
+	top: 268px;
+	left: 180px;
+	color:#6c6c6c;
+}
+
+/* 二维码   账号密码登录 分界线*/
+
+#bannerB #banner #box #pwd{
+	width: 300px;
+	height: 290px;
+	position: absolute;
+	top: 40px;
+	left: 25px;
+}
+#bannerB #banner #box #pwd>b{
+	display: block;
+	color: #000;
+	font-size: 16px;
+}
+#bannerB #banner #box #pwd p{
+	vertical-align: top;
+}
+#bannerB #banner #box #pwd p i{
+	display: inline-block;
+	font-size: 20px;
+	line-height: 40px;
+	text-align: center;
+	width: 40px;
+	height: 40px;
+	color: #606060;
+	background-color: #ddd;
+	border: 1px solid #cbcbcb;
+	border-right: 0;
+	margin-top: 10px;
+	vertical-align: bottom;
+}
+#bannerB #banner #box #pwd input{
+	width: 258px;
+	height: 40px;
+	border: 1px solid #cbcbcb;
+	border-left: 0;
+	margin-top: 25px;
+}
+#bannerB #banner #box #pwd a{
+	position: absolute;
+	top: 268px;
+	left: 130px;
+	color:#6c6c6c;
+}
