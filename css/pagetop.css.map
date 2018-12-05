@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,QAAQ;EACP,KAAK,EAAE,IAAI;EACX,gBAAgB,EAAE,OAAO;EACzB,YAAG;IACF,OAAO,EAAE,KAAK;IACd,KAAK,EAAE,MAAM;IACb,MAAM,EAAE,KAAK;IACb,MAAM,EAAC,MAAM",
+"sources": ["pagetop.scss"],
+"names": [],
+"file": "pagetop.css"
+}

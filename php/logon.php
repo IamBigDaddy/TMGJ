@@ -1,8 +1,8 @@
 <?php
 	include "public.php";
-	$username = $GET["uname"];
-	$userpwd = $GET["upwd"];
-	$sql = "select * from tmgj where `uname` ='$username' or `email` ='$username' or `unam` ='$username'";
+	$username = $_GET["uname"];
+	$userpwd = $_GET["upwd"];
+	$sql = "SELECT * FROM tmj WHERE `uname` ='$username' or `email` = '$username' or `unam` ='$username'";
 	$res = mysql_query( $sql );
 	$arr = mysql_fetch_array( $res );
 	if( $arr ){

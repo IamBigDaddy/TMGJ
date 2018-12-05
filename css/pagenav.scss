@@ -1,0 +1,54 @@
+#pagenavB{
+	width: 100%;
+	border-bottom: 1px solid #2f2f2f;
+	#pagenav{
+		width: 1188px;
+		height: 35px;
+		margin:0 auto;
+		.nav{
+			width: 240px;
+			height: 35px;
+			background-color: #2f2f2f;
+			float: left;
+			h3{
+				color:#fff;
+				text-align: center;
+				font-size: 15px;
+				line-height: 35px;
+				font-weight: bold;
+			}
+		}
+		.list{
+			float: left;
+			li{
+				float: left;
+				margin: 0 25px;	
+				height: 30px;
+				position: relative;
+				top: 10px;
+				a{
+					color: #2f2f2f;
+					font-size: 15px;
+					font-weight: bold;
+					
+				}
+			}
+		}
+		.pagenav1{
+			float: right;
+			position: relative;
+			top: -1px;
+			&:hover{
+				top:1px;
+			}
+		}
+		.pagenav2{
+			width: 197px;
+			position: relative;
+			top: 6px;
+			left: 751px;
+			display: none;
+			z-index: 1000;
+		}
+	}
+}

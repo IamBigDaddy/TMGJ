@@ -1,0 +1,217 @@
+#bannerB{
+	width: 100%;
+	#banner{
+		width: 970px;
+		height:604px;
+		margin: 0 auto;
+		border-right: 1px solid #f2f2f2;
+		position: relative;
+		top: 25px;
+		left: -85px;
+		#bannerbox{
+			width: 966px;
+			height: 556px;
+			position: relative;
+			#boxm{
+					width: 416px;
+					height: 416px;
+					img{
+						position: absolute;
+						top: 0;
+						left: 0;
+						width: 416px;
+						height: 416px;
+					}
+					.mask{
+						display: block;
+						width: 175px;
+						height: 175px;
+						opacity: 0.3;
+						background-color: #000;
+						position: absolute;
+					}
+			} 
+			#boxs{
+					width: 416px;
+					height: 60px;
+					position: absolute;
+					top: 420px;
+					left: 0;
+					padding-left:10px;
+					img{
+						display: inline-block;
+						width: 60px;
+						height: 60px;
+						float: left;
+						margin-top:23px;
+						margin: 0 8px;
+						border: 2px solid #fff;
+						&:hover{
+							border: 2px solid #000;
+						}
+					}
+			} 
+			#boxb{
+					width: 500px;
+					height: 500px;
+					display: none;
+					position: absolute;
+					top: 0;
+					overflow: hidden;
+					left: 420px;
+						img{
+						
+						position: absolute;
+					}
+			} 
+			#boxtext{
+				width: 530px;
+				height: 426px;
+				position: absolute;
+				top: 0;
+				right: -4px;
+				.textop{
+					font-size: 16px;
+				}
+				.colred{
+					font-size: 13px;
+					line-height: 28px;
+					color: #ff0036;
+				}
+				.textimg{
+					margin-top: 10px;
+					display: block;
+					width: 510px;
+					height: 121px;
+					background:url("../img/boxtextimg1.png");
+					background-size: cover;
+
+				}
+				.colhui{
+					font-size: 12px;
+					position: relative;
+					top: 18px;
+					left: 10px;
+					color: #999;
+					}
+				.textp1{
+					font-size: 12px;
+					position: relative;
+					top: 0px;
+					left: 70px;
+				}
+				.textp2{
+					font-size: 12px;
+					position: relative;
+					top: 10px;
+					left: 70px;
+					.textp2img{
+						display: inline-block;
+						background:url("../img/textp2img.png");
+						width: 80px;
+						height: 10px;
+						background-size: cover;
+					}
+				}
+				.textbor{
+					width: 510px;
+					height: 36px;
+					border-top: 1px dashed #999; 
+					border-bottom: 1px dashed #999; 
+					position: relative;
+					top: 17px;
+					li{
+						float: left;
+						font-size: 12px;
+						line-height: 36px;
+						color: #999;
+						span{
+							color: #ff006e;
+						}
+					}
+					.textbor1{
+						position: absolute;
+						left: 48px;
+					}
+					.textbor2{
+						position: absolute;
+						left: 210px;
+					}
+					.textbor3{
+						position: absolute;
+						left: 390px;
+						.textbor32{
+							color: #828800;
+						}
+					}
+
+				}
+				.textp3{
+					position: relative;
+					top: 25px;
+					left: 10px;
+					font-size:13px;
+					color: #999;
+					.textp31{
+						position: absolute;
+						top: 20px;
+						left: 10px;
+					}
+					.showi{
+						display: inline-block;
+						width: 41px;
+						height: 29px;
+						border:1px solid #999;
+						position: absolute;
+						top: 12px;
+						left: 42px;
+					}
+					.showtop{
+						display: inline-block;
+						width: 18px;
+						height: 14px;
+						background:url("../img/textshow1.png");
+						position: absolute;
+						top: 13px;
+						left: 90px;
+					}
+					.showbot{
+						display: inline-block;
+						width: 18px;
+						height: 14px;
+						background:url("../img/textshow2.png");
+						position: absolute;
+						top: 29px;
+						left: 90px;
+					}
+					.textp32{
+						position: absolute;
+						top: 20px;
+						left: 130px;
+					}
+					.textp33{
+						position: absolute;
+						top: 20px;
+						left: 175px;
+					}
+				}
+				.textp4{
+					width: 519px;
+					height: 59px;
+					background-color: #ffe0bc;
+					color: #666;
+					position: relative;
+					top: 83px;
+					left: -9px;
+					font-size: 14px;
+					line-height: 59px;
+					font-weight: bold;
+					padding-left:20px;
+					.colblue{
+						color: #3388bb;
+					}
+				}
+			}
+		}
+	}
+}
