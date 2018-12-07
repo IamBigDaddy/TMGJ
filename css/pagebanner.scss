@@ -59,8 +59,9 @@
 					top: 0;
 					overflow: hidden;
 					left: 420px;
+					z-index: 1100;
 						img{
-						
+						z-index: 1100;
 						position: absolute;
 					}
 			} 
@@ -70,6 +71,7 @@
 				position: absolute;
 				top: 0;
 				right: -4px;
+				
 				.textop{
 					font-size: 16px;
 				}
@@ -165,6 +167,8 @@
 						position: absolute;
 						top: 12px;
 						left: 42px;
+						text-align: center;
+						line-height: 29px;
 					}
 					.showtop{
 						display: inline-block;
@@ -210,6 +214,51 @@
 					.colblue{
 						color: #3388bb;
 					}
+				}
+			}
+			.textp5{
+				position: relative;
+				top: 60px;
+				left: 443px;
+				.p5sp1{
+					position: absolute;
+					top: 0;
+					left: 0;
+					color: #999;
+				}
+				.p5sp2{
+						position: absolute;
+						top: 0;
+						left: 64px;
+						color: #b87d9a;
+					}
+				.p5sp3{
+					position: absolute;
+					left: 386px;
+					top: 20px;
+				}
+			}
+			.textp6{
+				position: relative;
+				top: 100px;
+				left: 20px;
+				.p6sp1{
+					color: #999;
+					position: absolute;
+					top: 0;
+					left: 0;
+				}
+				.p6sp2{
+					color: #999;
+					position: absolute;
+					top: 0;
+					left: 100px;
+				}
+				.p6sp3{
+					color: #999;
+					position: absolute;
+					top: 0;
+					left: 350px;
 				}
 			}
 		}

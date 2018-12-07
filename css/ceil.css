@@ -1,0 +1,164 @@
+#ceil {
+  width: 100%;
+  background-color: #ff0c3b;
+  position: absolute;
+  display: none; }
+  #ceil #ceils {
+    width: 1230px;
+    height: 60px;
+    margin: 0 auto; }
+    #ceil #ceils .ceilimg {
+      background: url("../img/ceilimg.png");
+      display: inline-block;
+      width: 140px;
+      height: 45px;
+      background-size: cover;
+      float: left; }
+    #ceil #ceils .ceilinput {
+      width: 511px;
+      height: 30px;
+      margin-left: 150px;
+      margin-top: 15px;
+      float: left;
+      border: 0; }
+    #ceil #ceils .ceilbtn {
+      margin-top: 15px;
+      width: 90px;
+      height: 30px;
+      border: 0;
+      background: #ff0c3b;
+      color: #fff; }
+
+#bodyright {
+  width: 35px;
+  height: 723px;
+  background: #000;
+  position: fixed;
+  right: 0;
+  z-index: 3000; }
+  #bodyright span {
+    display: block;
+    color: #fff; }
+  #bodyright .brcat {
+    width: 35px;
+    height: 35px;
+    background-image: url("../img/brcat.png");
+    position: absolute;
+    top: 178px; }
+  #bodyright .brgwc {
+    position: absolute;
+    top: 220px;
+    width: 35px;
+    height: 100px;
+    background-image: url("../img/brgwc.png");
+    background-size: cover; }
+  #bodyright .brmoney {
+    width: 35px;
+    height: 35px;
+    background: url("../img/brmoney.png");
+    position: absolute;
+    top: 325px; }
+  #bodyright .brxx {
+    width: 35px;
+    height: 35px;
+    background-image: url("../img/brxx.png");
+    position: absolute;
+    top: 370px; }
+  #bodyright .brtime {
+    width: 35px;
+    height: 35px;
+    background-image: url("../img/brtime.png");
+    position: absolute;
+    top: 410px; }
+  #bodyright .brcz {
+    width: 35px;
+    height: 35px;
+    background-image: url("../img/brcz.png");
+    position: absolute;
+    top: 455px; }
+  #bodyright .brpen {
+    width: 35px;
+    height: 35px;
+    background-image: url("../img/brpen.png");
+    background-size: cover;
+    position: absolute;
+    top: 600px; }
+  #bodyright .br2 {
+    width: 35px;
+    height: 35px;
+    background-image: url("../img/br2.png");
+    position: absolute;
+    top: 635px; }
+  #bodyright .brtop {
+    width: 35px;
+    height: 35px;
+    background-image: url("../img/brtop.png");
+    position: absolute;
+    top: 670px; }
+
+#brimg {
+  height: 723px;
+  position: fixed;
+  right: 200px;
+  z-index: 3001; }
+  #brimg span {
+    z-index: 3001; }
+    #brimg span i {
+      width: 90px;
+      height: 35px;
+      background-color: #494949;
+      color: #fff;
+      text-align: center;
+      line-height: 35px;
+      font-style: normal;
+      display: none; }
+    #brimg span .brcat2 {
+      position: absolute;
+      top: 178px; }
+    #brimg span .brmoney2 {
+      position: absolute;
+      top: 325px; }
+    #brimg span .brxx2 {
+      position: absolute;
+      top: 370px; }
+    #brimg span .brtime2 {
+      position: absolute;
+      top: 410px; }
+    #brimg span .brcz2 {
+      position: absolute;
+      top: 455px; }
+    #brimg span .brpen2 {
+      position: absolute;
+      top: 600px; }
+    #brimg span .br22 {
+      width: 153px;
+      height: 208px;
+      position: absolute;
+      top: 460px;
+      right: -165px;
+      display: none; }
+    #brimg span .brtop2 {
+      position: absolute;
+      top: 670px; }
+
+#Loutinav {
+  display: none;
+  height: 370px;
+  width: 36px; }
+  #Loutinav li {
+    height: 24px;
+    width: 27px;
+    background-color: #626262;
+    margin-bottom: 1px;
+    font-size: 13px;
+    color: #fff;
+    line-height: 12px;
+    padding: 5px; }
+  #Loutinav .first {
+    line-height: 24px;
+    background-color: #ff0036; }
+  #Loutinav .last {
+    line-height: 24px;
+    background-color: #ababab; }
+
+/*# sourceMappingURL=ceil.css.map */

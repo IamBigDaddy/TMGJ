@@ -17,6 +17,13 @@
 				line-height: 35px;
 				font-weight: bold;
 			}
+			.pagenavimg{
+				width: 240px;
+				position: relative;
+				top: 0;
+				left: 0;
+				z-index: 1000;
+			}
 		}
 		.list{
 			float: left;
@@ -43,10 +50,10 @@
 			}
 		}
 		.pagenav2{
-			width: 197px;
+			width: 230px;
 			position: relative;
 			top: 6px;
-			left: 751px;
+			left: 719px;
 			display: none;
 			z-index: 1000;
 		}

@@ -52,8 +52,10 @@
         position: absolute;
         top: 0;
         overflow: hidden;
-        left: 420px; }
+        left: 420px;
+        z-index: 1100; }
         #bannerB #banner #bannerbox #boxb img {
+          z-index: 1100;
           position: absolute; }
       #bannerB #banner #bannerbox #boxtext {
         width: 530px;
@@ -138,7 +140,9 @@
             border: 1px solid #999;
             position: absolute;
             top: 12px;
-            left: 42px; }
+            left: 42px;
+            text-align: center;
+            line-height: 29px; }
           #bannerB #banner #bannerbox #boxtext .textp3 .showtop {
             display: inline-block;
             width: 18px;
@@ -177,5 +181,42 @@
           padding-left: 20px; }
           #bannerB #banner #bannerbox #boxtext .textp4 .colblue {
             color: #3388bb; }
+      #bannerB #banner #bannerbox .textp5 {
+        position: relative;
+        top: 60px;
+        left: 443px; }
+        #bannerB #banner #bannerbox .textp5 .p5sp1 {
+          position: absolute;
+          top: 0;
+          left: 0;
+          color: #999; }
+        #bannerB #banner #bannerbox .textp5 .p5sp2 {
+          position: absolute;
+          top: 0;
+          left: 64px;
+          color: #b87d9a; }
+        #bannerB #banner #bannerbox .textp5 .p5sp3 {
+          position: absolute;
+          left: 386px;
+          top: 20px; }
+      #bannerB #banner #bannerbox .textp6 {
+        position: relative;
+        top: 100px;
+        left: 20px; }
+        #bannerB #banner #bannerbox .textp6 .p6sp1 {
+          color: #999;
+          position: absolute;
+          top: 0;
+          left: 0; }
+        #bannerB #banner #bannerbox .textp6 .p6sp2 {
+          color: #999;
+          position: absolute;
+          top: 0;
+          left: 100px; }
+        #bannerB #banner #bannerbox .textp6 .p6sp3 {
+          color: #999;
+          position: absolute;
+          top: 0;
+          left: 350px; }
 
 /*# sourceMappingURL=pagebanner.css.map */

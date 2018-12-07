@@ -1,6 +1,7 @@
 // 导航栏
-var $my = $("#my")
-var $mysp = $("#mysp")
+{
+let $my = $("#my")
+let $mysp = $("#mysp")
 	$mysp.hide()
 $my.mouseenter(function(){
 	$mysp.show()
@@ -11,7 +12,7 @@ $my.mouseleave(function(){
 	$my.css("background","#f2f2f2")
 });
 //banner图
-var timer = null,
+let timer = null,
 	$list = $("#banner-img li"),
 	$uist = $("#banner-eq li"),
 	$ban = $("#bannerB"),
@@ -34,12 +35,12 @@ var timer = null,
 	} )
 	// banner图NAV的多级菜单
 
-	var $bannav = $("#banner-nav li"),
+	let $bannav = $("#banner-nav li"),
 		$parentSon = $("#parent1"),
 		$parent1 = $("#parent1")
 	$bannav.hover(function() {
-		// var index = $(this).index()
-		var color = getColor();
+		// let index = $(this).index()
+		let color = getColor();
 		$(this).css({"background":"#fff","color":color})
 		$parent1.show()
 		$parent1.find("a").css("color",color)
@@ -53,7 +54,7 @@ var timer = null,
 		$(this).hide()
 	})
 	//domo 划过效果
-	var $demoimg = $("#demo div>li")
+	let $demoimg = $("#demo div>li")
 	$demoimg.hover(function(){
 		this.div = $("<div></div>");
 		this.div.css({
@@ -70,7 +71,7 @@ var timer = null,
 	})
 
 	//navimg划过效果
-	var $navlist = $("#navimg li")
+	let $navlist = $("#navimg li")
 	$navlist.hover(function(){
 		this.div = $("<div>Hello Word<a href=''>点击进入</a></div>");
 		this.div.css({
@@ -100,7 +101,7 @@ var timer = null,
 		this.div.remove()
 	})
 //list大图划过效果
-	var $listbot = $("#listbot>li")
+	let $listbot = $("#listbot>li")
 	$listbot.hover(function(){
 		this.div = $("<a href=''></a>");
 		this.div.css({
@@ -116,7 +117,7 @@ var timer = null,
 		this.div.remove()
 	})
 //list 小图划过效果
-	var $listbotsmall = $("#listbot>ul li")
+	let $listbotsmall = $("#listbot>ul li")
 	$listbotsmall.hover(function(){
 		this.div = $("<a href=''></a>");
 		this.div.css({
@@ -132,3 +133,4 @@ var timer = null,
 	},function(){
 		this.div.remove()
 	})
+}

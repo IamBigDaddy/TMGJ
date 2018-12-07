@@ -1,0 +1,71 @@
+#sideshowB {
+  width: 100%;
+  margin-top: 50px;
+  height: 7418px; }
+  #sideshowB #sideshow {
+    width: 1188px;
+    margin: 0 auto;
+    position: relative; }
+    #sideshowB #sideshow .showleft {
+      float: left; }
+      #sideshowB #sideshow .showleft .sl2, #sideshowB #sideshow .showleft .sl3 {
+        margin-top: 10px; }
+    #sideshowB #sideshow .showtop {
+      float: left;
+      margin-left: 16px;
+      width: 790px;
+      height: 46px;
+      border: 1px solid #dfdfdf;
+      line-height: 46px; }
+      #sideshowB #sideshow .showtop li {
+        vertical-align: middle;
+        float: left; }
+        #sideshowB #sideshow .showtop li a {
+          color: #000;
+          border-right: 1px dashed #999;
+          height: 14px;
+          padding: 0 20px; }
+          #sideshowB #sideshow .showtop li a span {
+            color: blue; }
+    #sideshowB #sideshow .wrapper {
+      float: left;
+      position: relative;
+      left: 16px;
+      width: 790px;
+      height: 305px; }
+      #sideshowB #sideshow .wrapper ul {
+        position: relative; }
+      #sideshowB #sideshow .wrapper ul li {
+        position: absolute;
+        top: 0;
+        left: 0; }
+        #sideshowB #sideshow .wrapper ul li img {
+          width: 790px;
+          height: 305px; }
+      #sideshowB #sideshow .wrapper ol {
+        position: absolute;
+        bottom: 10px;
+        right: 5px; }
+        #sideshowB #sideshow .wrapper ol li {
+          float: left;
+          width: 25px;
+          height: 25px;
+          background-color: #716564;
+          border-radius: 50%;
+          margin: 0 3px;
+          color: #fff;
+          text-align: center;
+          line-height: 25px;
+          font-size: 15px; }
+        #sideshowB #sideshow .wrapper ol li.clored {
+          background-color: #b91919; }
+    #sideshowB #sideshow .showbom {
+      width: 790px;
+      float: left;
+      position: relative;
+      left: 16px;
+      top: 70px; }
+      #sideshowB #sideshow .showbom img {
+        margin-top: 16px; }
+
+/*# sourceMappingURL=sideshow.css.map */
